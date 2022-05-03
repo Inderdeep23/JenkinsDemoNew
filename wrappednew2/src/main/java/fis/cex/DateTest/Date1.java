@@ -21,7 +21,7 @@ import java.util.TimeZone;
 public class Date1 {
 
 	public static String todayDate = getCurrentDatenTimeWithTimeZone("yyyyMMddHHmm", "CST");
-	public static String monthlyDate = getCurrentDatenTimeWithTimeZone("MM/yyyy", "CST");
+//	public static String monthlyDate = getCurrentDatenTimeWithTimeZone("MM/yyyy", "CST");
 
 	public static String getCurrentDatenTimeWithTimeZone(String format, String TimeZone) {
 		Calendar cal = Calendar.getInstance();
