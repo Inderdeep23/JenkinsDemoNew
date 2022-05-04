@@ -33,6 +33,8 @@ public class FileReader2 {
 		List<String> allLines = Files.readAllLines(yourFile);
 		System.out.println(allLines.get(0));
 		
+		
+		
 		System.out.println(allLines.get(1));
 		System.out.println(allLines.get(2));
 		System.out.println(allLines.get(3));
