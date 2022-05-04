@@ -35,6 +35,7 @@ public class FileReader2 {
 		
 		
 		
+		
 		System.out.println(allLines.get(1));
 		System.out.println(allLines.get(2));
 		System.out.println(allLines.get(3));
