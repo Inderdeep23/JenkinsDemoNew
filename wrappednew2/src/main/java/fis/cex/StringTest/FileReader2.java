@@ -115,6 +115,7 @@ public class FileReader2 {
 
 		eWireFieldsMap.entrySet().forEach(entry -> {
 			System.out.println(entry.getKey() + " = " + entry.getValue());
+			System.lineSeparator();
 		});
 
 	}
